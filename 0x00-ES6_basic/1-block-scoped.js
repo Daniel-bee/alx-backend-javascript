@@ -1,12 +1,14 @@
-/* block scope */
+/* eslint-disable */
 export default function taskBlock(trueOrFalse) {
-  const task = false;
-  const task2 = true;
+  let task;
+  let task2;
 
   if (trueOrFalse) {
-    const task = true;
-    const task2 = false;
+    task = true;
+    task2 = false;
   }
+  task = false;
+  task2 = true;
 
   return [task, task2];
 }
