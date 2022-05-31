@@ -1,5 +1,5 @@
-//Executing basic javascript with Node JS
-function displayMessage(msg){
+// Executing basic javascript with Node JS
+function displayMessage(msg) {
   console.log(msg);
 }
 
